@@ -103,7 +103,18 @@ def modules(symbol):
                 forwardPE_fmt = defaultKeyStatistics.get("fowardPE", {}).get("fmt", "N/A")
                 profitMargins = defaultKeyStatistics.get("profitMargins", {}).get("raw", "N/A")
                 profitMargins_fmt = defaultKeyStatistics.get("profitMargins", {}).get("fmt", "N/A")
-                
+                floatShares = defaultKeyStatistics.get("floatShares", {}).get("raw", "N/A")
+                floatShares_fmt = defaultKeyStatistics.get("floatShares", {}).get("fmt", "N/A")
+                floatShares_long = defaultKeyStatistics.get("floatShares", {}).get("long", "N/A")
+                sharesOutstanding = defaultKeyStatistics.get("sharesOutstanding", {}).get("raw", "N/A")
+                sharesOutstanding_fmt = defaultKeyStatistics.get("sharesOutstanding", {}).get("fmt", "N/A")
+                sharesOutstanding_long = defaultKeyStatistics.get("sharesOutstanding", {}).get("long", "N/A")
+                sharesShort = defaultKeyStatistics.get("sharesShort", {}).get("raw", "N/A")
+                sharesShort_fmt = defaultKeyStatistics.get("sharesShort", {}).get("fmt", "N/A")
+                sharesShort_long = defaultKeyStatistics.get("sharesShort", {}).get("long", "N/A")
+                sharesShortPriorMonth = defaultKeyStatistics.get("sharesShort", {}).get("raw", "N/A")
+                sh
+
 
 
 # Call modules function with a stock ticker
