@@ -1,11 +1,12 @@
-# Description: Get the news for a particular stock ticker or company.
+# Description: Make an api call that returns options on a particular stock
+
 
 import requests
 
-def news(symbol):
-    url = "https://mboum-finance.p.rapidapi.com/ne/news/"
+def options(symbol):
+    url = "https://mboum-finance.p.rapidapi.com/op/option"
 
-    querystring = {"symbol":symbol}
+    querystring = {"expiration":"1705622400","symbol":symbol}
 
     headers = {
 	    "X-RapidAPI-Key": "0rD6UyDj8jmshLwoCdZCWBgBf6pIp1UK2BBjsnb2kK9LFosz4o",
