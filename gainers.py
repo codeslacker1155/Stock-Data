@@ -35,7 +35,6 @@ if top_stocks_response.status_code == 200:
     for i in range(len(symbols)):
         data = {'symbol': symbols[i], 'longName': longName[i], 'fullExchangeName': fullExchangeName[i]}
         list.append(data)
-    print(list)
 
 
 else:
