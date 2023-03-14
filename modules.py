@@ -274,4 +274,9 @@ def modules(symbol):
                 financials_data = {"currentPrice": currentPrice_fmt, "targetLowPrice": targetLowPrice_fmt, "targetHighPrice": targetHighPrice_fmt, "targetMeanPrice": targetMeanPrice_fmt, "targetMedianPrice": targetMedianPrice_fmt, "recommendationMean": recommendationMean_fmt, "recomendationKey": recomendationKey, "numberOfAnalystOpinions": numberOfAnalystOpinions, "totalCash": totalCash_fmt, "totalCashPerShare": totalCashPerShare_fmt, "ebitda": ebitda_fmt, "totalDebt": totalDebt_fmt, "quickRatio": quickRatio_fmt, "currentRatio": currentRatio_fmt, "totalRevenue": totalRevenue_fmt, "debtToEquity": debtToEquity_fmt, "revenuePerShare": revenuePerShare_fmt, "returnOnAssets": returnOnAssets_fmt, "returnOnEquity": returnOnEquity_fmt, "grossProfits": grossProfits_fmt, "freeCashflow": freeCashflow_fmt, "operatingCashflow": operatingCashflow_fmt, "earningsGrowth": earningsGrowth_fmt, "revenueGrowth": revenueGrowth_fmt, "grossMargins": grossMargins_fmt, "ebitdaMargins": ebitdaMargins_fmt, "operatingMargins": operatingMargins_fmt, "profitMargins": profitMargins_fmt, "financialCurrency": financialCurrency}
 
 # Call modules function with a stock ticker
-modules("AAPL")
+#modules("AAPL")
+
+# TODO: Create the ability to specify what modules that you would like to run to gather data
+# TODO: Put all modules into their own functions, when you call the five modules, it will sort the data accordingly and create the dictionaries that we need.
+# TODO: We have all this data, but we need to figure out what is neccessary to run the strategy
+# TODO: Once we have those dictionaries we can send them to strategy.py to run the strategy
